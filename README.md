@@ -3,7 +3,7 @@
 **Revolutionizing Drug Abuse Intervention Through Privacy-First Technology.**
 
 ![Project Banner] (https://github.com/namagandajackline001-source/Wandegeya-Wellness-Hub/blob/main/banner.png?raw=true)
-![Project Logo] ()
+![Project Logo] (https://github.com/namagandajackline001-source/Wandegeya-Wellness-Hub/blob/main/logo.png?raw=true)
 
 ## 📌 Project Overview
 Wandegeya Wellness Hub is an innovative digital solution designed to combat drug abuse in urban centers. Our platform leverages live camera scanning and AI driven flagging to identify high risk areas while maintaining absolute user anonymity. We bridge the gap between detection and recovery by providing instant, non-judgmental counseling and guidance.
