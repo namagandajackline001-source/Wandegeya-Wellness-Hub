@@ -45,3 +45,23 @@ Traditional drug intervention often fails due to:
 *   **Focus:** System Architecture, Social Impact, & Strategy.
 
 *Developed for the dev3 Hackathon  2026*
+## 🏗️ Technical Architecture & Privacy Framework
+
+The **Wandegeya Wellness Hub** is built on a "Privacy by Design" principle. Our system identifies behavioral patterns associated with substance abuse without ever identifying the individual person.
+
+### 🛡️ 1. Zero-Knowledge Live Scanning
+*   **Edge Processing:** Video feeds are processed locally on the camera device. No raw video is ever uploaded to a central server or cloud.
+*   **Automated Anonymization:** Our AI model immediately applies a "privacy mask" (blurring or wireframe conversion) to all human faces before the data is analyzed.
+*   **Behavioral Pattern Recognition:** The system detects specific *actions* (e.g., loitering patterns, physical distress) rather than *identities*.
+
+### 🚩 2. Anonymous Flagging System
+*   **Metadata Only:** When a high risk area is identified, the hub only records the **timestamp**, **location (Geo-tag)**, and **risk level**. 
+*   **No User Credentials:** The system does not require, ask for, or store names, phone numbers, or ID photos.
+*   **Open Access Guidance:** Counseling resources are pushed to public digital hubs in the flagged area, allowing anyone to access help without logging in.
+
+### 📊 3. The Logic Flow
+1. **Detection:** AI identifies a potential hotspot pattern.
+2. **Obfuscation:** Faces are instantly replaced with generic 3D bounding boxes.
+3. **Flagging:** A heat-map is updated for NGOs and health workers.
+4. **Intervention:** Local wellness teams are notified to provide guidance in the area.
+
